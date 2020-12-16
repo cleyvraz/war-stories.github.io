@@ -9,16 +9,18 @@ layout: compress
 <body>
   {% include navbar.html %}
   {% include showcase.html %}
-  <section class="hero is-fullheight">
+ <section class="hero ">
       <div class="hero-body">
-        <div class="content has-background-white has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">              <div class="section">
-                <div class="content is-marginless">
-                      {{ content }}
-                  </div>
-              </div>
+        <div class="columns is-centered">
+         <div class="column is-three-quarters">
+          <div class=" content has-background-white has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">              <div class="section">
+            {{ content }}
           </div>
+        </div>
       </div>
-  </section>
+    </div>
+  </div>
+</section>
 
   <!--Footer begins here-->
   {% include footer.html %}
