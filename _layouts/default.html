@@ -9,9 +9,17 @@ layout: compress
 <body>
   {% include navbar.html %}
   {% include showcase.html %}
-  {% include introduction.html %}
-  {% include findings.html %}
-  {% include conclusion.html %}
+  <section class="hero is-fullheight">
+      <div class="hero-body">
+        <div class="content has-background-white has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">              <div class="section">
+                <div class="content is-marginless">
+                      {{ content }}
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
   <!--Footer begins here-->
   {% include footer.html %}
 </body>
