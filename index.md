@@ -22,11 +22,9 @@ To study the impact of an onset, we will look at the time evolution of some rele
 
 (ADD PLOT PROPORTION ANTOINE)
 
-#### Indonesia
-Let us now focus on some special cases, like Indonesia, which is the most striken country with in total 7 civil wars. Looking at the time evolution of some of the most relevant features, we can notice a few things. Primary and secondary education mostly follow the same trend, which is to be expected, but with different amplitudes. Overall, primary education 
+
 
 {% include indonesia_evolution.html %}
-
 
 {% include iraq_evolution.html %}
 
