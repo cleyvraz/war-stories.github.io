@@ -146,6 +146,8 @@ After diving in these instruments of destruction transaction registry, we drop o
 Using a threshold approach with a similar timeframe as earlier and excluding the countries experiencing an onset within the timeframe, we can bring to the light a few trends:
 for 6% of the neighbouring countries, the life expectancy decreases by more than 10%.
 
+{% include proportion_neighbors_country_feat.html %}
+
 ##OLD, pour se donner une idée
 
 ### window of 3, thr of 0.1
