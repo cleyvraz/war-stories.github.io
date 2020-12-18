@@ -27,7 +27,7 @@ XXX and YYY often supply heaven weapons to country experiencing civil war
 
 To study the impact of an onset, we will look at the time evolution of some relevant features. First of all, we are going to study in the long lasting effects of a Civil War; how long does it take for a country to recover and return to the values it was at before the onset?
 
-[histogrammes  sur la durée avant recovery] avec gdp, life et une 3e feature?]
+{% include recovery_years_histo.html %}
 
 Fortunately, it seems like the infant mortality (death of a baby under the age of 1 year), despite being affected by the onsets, usually recover in less than 1 year. However, the vast majority of the countries that weren’t able to restore their pre-conflict value before 2020 are located in Africa with conflicts that occurred in the 80s or 90s such as : Algeria (1991), Central African Republic (1996), Djibouti (1991), Haiti (1991), Iran (1981), Mozambique (1976), South Africa (1976) and Democratic Republic of the Congo (1991).
 
@@ -38,6 +38,8 @@ If we focus our attention on economical factors, we can see that they are consid
 Countries with high Primary Commodity Export (to which Oil belongs) were reported as likely to experience civil war according to Collier and Hoeffler, two political science researchers. Even if their conclusion is disputed, we are curious to see how this division/department of a country trade is impacted. It appears that it takes on average a little bit more than 5 years to return to “normal” levels : longer than the GDP growth! We must however consider the fact that 28 countries, almost half of the countries experiencing civil war (72), weren’t able to revert to their original export level.
 
 With we narrow the study to countries possessing oil in their soil/on their territory (34, for 16 onsets), a slightly different trend appears : the average is now 8 years, with a median at 4 years. It’s important to outline that Indonesia accounts for almost half of the onsets in this subset, with repressions of Communist movements (1949, 1963) and Darul Islamism (1949), as well as regional independence suppression (1950, 1956, 1963, 1975).
+
+{% include recovery_years_histo_oil.html %}
 
 We will now take a more global approach and take a look at the trends across all the onsets across the world. To do so, we will compute the proportion of countries which saw a noticeable change between the 3 years preceding the conflict and the 3 years after (year of the onset included). Feel free to select a threshold and see the proportion of countries which experienced a variation greater than value selectionned! (NB: if data is missing, the onset is excluded from the analysis to limit biais).
 
