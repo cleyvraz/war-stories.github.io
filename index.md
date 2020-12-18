@@ -17,12 +17,6 @@ Let us have a quick look at the dataset. In the map below, you can see the 117 C
 
 {% include geographic_repartition.html %}
 
-# Findings
-Helicopters goes pew pew
-Big development gap between countries experiencing at least one versus non CW
-Economical indicators such as GDP Growth and Primary Commodity Export are greatly affected by the onsets, for both the country itself and its neighbours
-Weapon trade (TIV score) to increase around the onsets, for both the country itself and its neighbours.
-XXX and YYY often supply heaven weapons to country experiencing civil war
 
 
 # How is a country impacted by civil war?
