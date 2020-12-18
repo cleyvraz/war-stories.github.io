@@ -109,7 +109,7 @@ The median variations of each category for recurrent buyers are mostly negative,
 
 However if we have a look at the means values, we get different results: The mean variation for every recurrent buyer is positively large for every category. It seems that the data is heavily skewed by some specific civil war events. We propose to visualize the events with the largest import variation for each category.
 
-{% include world_map_CW_over_years.html %}
+{% include Cuba_top_tank.html %}
 
 The onset event in Cuba in 1958 sees the highest variation in tanks import in our dataset. The year suggests that this weapon import is linked to the cuban revolution. It is documented that during this conflict, the United States supplied Cuba with planes, ships and tanks, which was used against the rebels (Ernesto "Che" Guevara (World Leaders Past & Present), by Douglas Kellner, 1989, Chelsea House Publishers).
 
@@ -142,6 +142,8 @@ However we must remember that these supplies concern only transactions with coun
 
 
 By looking at the total number of weapon supplies we see a slightly altered ordering of those countries. We find that the United States is still second only to the Soviet Union. However the proportion of weapons dealt to countries associated with civil war is considerably smaller. France which was 4th in number of weapon supply to countries associated with civil war is now third. We understand how Russia managed to get third in the plot from above. An unusually large part of its weapon supply is associated with civil war. This pushes us to ponder on the question about which country is the most involved with civil war in its weapon trade.
+
+
 {% include supply_ratio.html %}
 
 
@@ -170,7 +172,7 @@ Unfortunately, these results do not take in account the duration of civil wars a
 
 Let’s take an additional step back and split the countries in two groups; those who never experienced a civil war and the others. This separation is of course very rough, and doesn’t take in account the colonialist history, the natural disaster or wars between constitutionally democratic forms of government but let us outline some difference. In order to perform this comparison, we will focus on the most recent data available (1965-2000).
 
-For one last time, let’s focus on Life Expectancy again. As of 2000, a 5 years gap (66.78 versus 61.08 years) lies between the two groups. 35 years earlier, the difference was almost 9 years : despite the civil wars, the countries were able to reduce this difference over time. We could hope that in several decennies, despite the conflicts that might emerge in the meantime, the gap will disappear. This of course depends on many other parameters...
+For one last time, let’s focus on Life Expectancy again. As of 2000, a 5 years gap (66.78 versus 61.08 years) lies between the two groups. 35 years earlier, the difference was almost 9 years : despite the civil wars, the countries were able to reduce this difference over time. We could hope that in several decades, despite the conflicts that might emerge in the meantime, the gap will disappear. This of course depends on many other parameters...
 
 {% include life_expectancy_CW_no_CW.html %}
 
