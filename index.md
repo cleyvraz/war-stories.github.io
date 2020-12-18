@@ -129,6 +129,8 @@ Furthermore if we throw statistical caution to the wind and have a look at the m
 These results seem to imply that the data is heavily skewed. Let’s have a look at which countries have the biggest variation in imported weapons surrounding a civil war onset event.
 ## Who is supplying the weapons?
 
+
+{% include top_suppliers.html %}
 ???
 
 ## Studying the neighbours
