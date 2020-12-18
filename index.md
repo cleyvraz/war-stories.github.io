@@ -165,7 +165,7 @@ For one last time, let’s focus on Life Expectancy. As of 2000, a 5 years gap (
 
 {% include life_expectancy_CW_no_CW.html %}
 
-{% include life_expectancy_region.html.html %}
+{% include life_expectancy_region.html %}
 
 When put in contrast with the average life expectancy and number of civil onsets per region, we can even observe that between 1965 and 1990, the ranking of the regions by longest life expectancy is the exact opposite of the ranking by the number of civil war onsets. In 1990, with the dismantlement of the URSS, many independence wars broke out as well as numerous ethnic violence. These conflicts induce a considerable drop in the Eastern Europe life expectancy and make this region fall behind Latin America, the Middle East, and North Africa as well as South & East Asia and Oceania.
 
