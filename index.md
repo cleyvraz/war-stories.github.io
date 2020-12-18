@@ -127,11 +127,17 @@ Furthermore if we throw statistical caution to the wind and have a look at the m
 -Guns: We see a **decrease** of **216%** in Gun import
 
 These results seem to imply that the data is heavily skewed. Let’s have a look at which countries have the biggest variation in imported weapons surrounding a civil war onset event.
-## Who is supplying the weapons?
 
+
+## Who is supplying the weapons?
+The trade registry contains both information about the recipient and the suppliers. An interesting question would be to see which are the prevalent weapon suppliers for countries in a state of civil war. In this regard we compiled data about the amount of military equipment supplied to countries after a civil war onset, classified by supplier. The figure below presents the top 10 suppliers of military equipment to countries who have had a civil war onset 5 years prior.
 
 {% include top_suppliers.html %}
-???
+
+Keeping in mind that the plot yscale is logarithmic, the soviet union proves to be the clear biggest supplier in our dataset, with over 100 thousand registered pieces of equipment. Next comes France with 54 thousand supplied pieces of equipment, and curiously The United States comes in in third place.
+
+
+// Compare avec le nombre d'armes vendues au total comparé au cas avec seulement guerres civiles
 
 ## Studying the neighbours
 
