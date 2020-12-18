@@ -69,14 +69,14 @@ The **trade registry contains information about weapon imports for many types of
 
 - Aircraft: Any type of aircraft, that could give an idea for the type of investment produced for aerial warfare. Those include transport aircraft, bomber aircraft, fighter aircraft, etc... We exclude helicopters which will have a category of their own.
 
--Helicopters: Based on the difference in endurance and range with normal planes, we decide to give helicopters a category of their own. Indeed we reason that helicopters might be favored in the context of civil war because they would not need to cover the range achievable by an airplane if it is restricted to the countries borders.
+- Helicopters: Based on the difference in endurance and range with normal planes, we decide to give helicopters a category of their own. Indeed we reason that helicopters might be favored in the context of civil war because they would not need to cover the range achievable by an airplane if it is restricted to the countries borders.
 
 - Guns: We decide to put in this category any form of artillery present in the dataset except for missiles. Our dataset containing mostly transactions of heavy weaponry this category does not include handguns of firearms. It includes weapons such as towed guns, naval guns, or self-propelled guns.
 
--Missiles: The trade registry contains many entries for missiles, all of which are described as Anti-ship or Anti-tank missiles. Those were numerous and specific enough to warrant a category of their own.
+- Missiles: The trade registry contains many entries for missiles, all of which are described as Anti-ship or Anti-tank missiles. Those were numerous and specific enough to warrant a category of their own.
 
 
--Cars: This category regroups many descriptions that seem to designate the same kind of vehicle. In the trade registry, they are described as cars, Armored Cars (ac), or Armed Personnel Carrier (APC). Those all seem to designate some type of armored vehicle for military use.
+- Cars: This category regroups many descriptions that seem to designate the same kind of vehicle. In the trade registry, they are described as cars, Armored Cars (ac), or Armed Personnel Carrier (APC). Those all seem to designate some type of armored vehicle for military use.
 
 ### Variations in Import for different weapons types
 
@@ -141,7 +141,7 @@ By looking at the total number of weapon supplies we see a slightly altered orde
 
 From those two plots above we can see the **countries with the biggest ratio of weapon supply associated with civil war compared to the rest of weapon trade for this given country**. Sudan is in first place although it has only 3 recorded interactions. We can see that Russia is in both the top 10 countries in the sheer number of weapons supply but also the top 10 of countries with the biggest relative supply in weapons for civil war.
 
-## Studying the neighbours
+## Studying the neighbors
 
 After diving into these instruments of destruction transaction registry, we drop our bookkeeper suit, take a step back, and consider the permeability of the borders. This is critical as all entities studied in this work are not isolated from each other but share borders. It would be very naive to believe that the effects of these disastrous conflicts don’t spill on the neighboring countries.
 
